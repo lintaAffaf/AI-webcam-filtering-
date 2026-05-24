@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    VideoCapture cap("sample1.mp4");  // change to your filename
+    VideoCapture cap("sample1.mp4");  
     if (!cap.isOpened()) {
         cout << "Error: Cannot open video!" << endl;
         return -1;
